@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dns-test"
+version = "0.1.0"
+description = "Looks for dns records via ec2 python script"
+authors = ["Brian Hopkins <brianhh1230@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dns_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dnspython = "^2.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
